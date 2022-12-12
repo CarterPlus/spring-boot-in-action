@@ -1,5 +1,6 @@
-package com.example.springboottest;
+package com.example.springboottest.testweb;
 
+import com.example.springboottest.testweb.HomeController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

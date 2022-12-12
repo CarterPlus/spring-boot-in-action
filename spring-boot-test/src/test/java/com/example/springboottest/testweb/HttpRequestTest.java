@@ -1,4 +1,4 @@
-package com.example.springboottest;
+package com.example.springboottest.testweb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +22,6 @@ public class HttpRequestTest {
         assertThat(this.restTemplate.getForObject(
                 "http://localhost:" + port + "/",
                 String.class
-        )).contains("Hello World");
+        )).contains("Hello, World");
     }
 }
